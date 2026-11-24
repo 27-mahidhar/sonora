@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#4a0f45"/>
+    <stop offset="70%" stop-color="#150414"/>
+    <stop offset="100%" stop-color="#150414"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="67%" cy="26%" r="72%">
+    <stop offset="0%" stop-color="#ff9fe4" stop-opacity="0.78"/>
+    <stop offset="55%" stop-color="#ff9fe4" stop-opacity="0.2"/>
+    <stop offset="100%" stop-color="#ff9fe4" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="0.4" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2"/>
+    <stop offset="45%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="vig" cx="50%" cy="48%" r="76%">
+    <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0.42"/>
+  </radialGradient>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.86" numOctaves="4" stitchTiles="stitch" result="n"/>
+    <feColorMatrix in="n" type="saturate" values="0"/>
+  </filter>
+</defs>
+<rect width="1000" height="1000" fill="url(#bg)"/>
+<rect width="1000" height="1000" fill="url(#glow)"/>
+<path d="M -100 120 C 200 51, 420 222, 620 46 S 980 243, 1100 120" fill="none" stroke="#ff9fe4" stroke-opacity="0.6144876251742244" stroke-width="5.0"/><path d="M -100 204 C 200 274, 420 210, 620 162 S 980 275, 1100 204" fill="none" stroke="#ff9fe4" stroke-opacity="0.6207113471627235" stroke-width="3.0"/><path d="M -100 289 C 200 188, 420 229, 620 219 S 980 406, 1100 289" fill="none" stroke="#ff9fe4" stroke-opacity="0.5843364786170423" stroke-width="3.5"/><path d="M -100 373 C 200 401, 420 296, 620 324 S 980 455, 1100 373" fill="none" stroke="#ff9fe4" stroke-opacity="0.5884486126527191" stroke-width="5.3"/><path d="M -100 458 C 200 508, 420 497, 620 419 S 980 522, 1100 458" fill="none" stroke="#ff9fe4" stroke-opacity="0.4612984000518918" stroke-width="4.8"/><path d="M -100 542 C 200 526, 420 473, 620 500 S 980 613, 1100 542" fill="none" stroke="#fff0fa" stroke-opacity="0.95" stroke-width="12.0"/><path d="M -100 627 C 200 650, 420 705, 620 578 S 980 708, 1100 627" fill="none" stroke="#ff9fe4" stroke-opacity="0.4493779147788882" stroke-width="5.9"/><path d="M -100 711 C 200 658, 420 695, 620 678 S 980 767, 1100 711" fill="none" stroke="#ff9fe4" stroke-opacity="0.6776903908513486" stroke-width="4.5"/><path d="M -100 796 C 200 832, 420 743, 620 757 S 980 860, 1100 796" fill="none" stroke="#ff9fe4" stroke-opacity="0.6569442611932754" stroke-width="5.8"/><path d="M -100 880 C 200 818, 420 826, 620 831 S 980 962, 1100 880" fill="none" stroke="#ff9fe4" stroke-opacity="0.736052314452827" stroke-width="3.6"/>
+<rect width="1000" height="1000" fill="url(#sheen)"/>
+<rect width="1000" height="1000" fill="url(#vig)"/>
+<rect width="1000" height="1000" filter="url(#grain)" opacity="0.16" style="mix-blend-mode:overlay"/>
+</svg>

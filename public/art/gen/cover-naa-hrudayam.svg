@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#4a1a0e"/>
+    <stop offset="70%" stop-color="#170804"/>
+    <stop offset="100%" stop-color="#170804"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="52%" cy="52%" r="72%">
+    <stop offset="0%" stop-color="#ffb894" stop-opacity="0.78"/>
+    <stop offset="55%" stop-color="#ffb894" stop-opacity="0.2"/>
+    <stop offset="100%" stop-color="#ffb894" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="0.4" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2"/>
+    <stop offset="45%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="vig" cx="50%" cy="48%" r="76%">
+    <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0.42"/>
+  </radialGradient>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.86" numOctaves="4" stitchTiles="stitch" result="n"/>
+    <feColorMatrix in="n" type="saturate" values="0"/>
+  </filter>
+</defs>
+<rect width="1000" height="1000" fill="url(#bg)"/>
+<rect width="1000" height="1000" fill="url(#glow)"/>
+<path d="M -100 520 C 240 403, 500 602, 760 473 S 1080 578, 1150 520 L 1150 1100 L -100 1100 Z" fill="#ffb894" fill-opacity="0.20"/><path d="M -100 615 C 240 448, 500 731, 760 548 S 1080 698, 1150 615 L 1150 1100 L -100 1100 Z" fill="#ffb894" fill-opacity="0.35"/><path d="M -100 707 C 240 550, 500 816, 760 644 S 1080 785, 1150 707 L 1150 1100 L -100 1100 Z" fill="#ffb894" fill-opacity="0.50"/><path d="M -100 839 C 240 743, 500 906, 760 801 S 1080 887, 1150 839 L 1150 1100 L -100 1100 Z" fill="#ffb894" fill-opacity="0.65"/><path d="M -100 938 C 240 786, 500 1044, 760 877 S 1080 1013, 1150 938 L 1150 1100 L -100 1100 Z" fill="#fff2e9" fill-opacity="0.85"/>
+<rect width="1000" height="1000" fill="url(#sheen)"/>
+<rect width="1000" height="1000" fill="url(#vig)"/>
+<rect width="1000" height="1000" filter="url(#grain)" opacity="0.16" style="mix-blend-mode:overlay"/>
+</svg>

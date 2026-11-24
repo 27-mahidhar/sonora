@@ -1,0 +1,33 @@
+{
+  "name": "sonora",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SONORA — a premium music streaming platform",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "catalog": "node scripts/build-catalog.mjs",
+    "art": "node scripts/build-catalog.mjs --art-only"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.46.2",
+    "@types/node": "^20.19.43",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.462.0",
+    "next": "^14.2.35",
+    "postcss": "^8.4.49",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sharp": "^0.35.5",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.6.3"
+  }
+}

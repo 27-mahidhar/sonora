@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img">
+<defs>
+  <linearGradient id="b" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#4a1226"/>
+    <stop offset="100%" stop-color="#140308"/>
+  </linearGradient>
+  <radialGradient id="o" cx="35%" cy="30%" r="70%">
+    <stop offset="0%" stop-color="#ff9fb4" stop-opacity="0.8"/>
+    <stop offset="100%" stop-color="#ff9fb4" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="g"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/></filter>
+</defs>
+<rect width="1000" height="1000" fill="url(#b)"/>
+<circle cx="267" cy="287" r="399" fill="url(#o)"/>
+<g fill="none" stroke="#fff0f3" stroke-opacity="0.13">
+  <circle cx="500" cy="500" r="430" stroke-width="2"/>
+  <circle cx="500" cy="500" r="352" stroke-width="1.5" stroke-dasharray="3 14"/>
+  <circle cx="500" cy="500" r="470" stroke-width="1"/>
+</g>
+<path d="M 120 500 A 380 380 0 0 1 500 120" fill="none" stroke="#fff0f3" stroke-opacity="0.5" stroke-width="5" stroke-linecap="round"/>
+<text x="500" y="512" text-anchor="middle" dominant-baseline="central" font-family="Georgia, 'Times New Roman', serif" font-size="470" fill="#fff0f3" fill-opacity="0.95">M</text>
+<rect width="1000" height="1000" filter="url(#g)" opacity="0.14" style="mix-blend-mode:overlay"/>
+<radialGradient id="v" cx="50%" cy="45%" r="75%">
+  <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+  <stop offset="100%" stop-color="#000" stop-opacity="0.45"/>
+</radialGradient>
+<rect width="1000" height="1000" fill="url(#v)"/>
+</svg>

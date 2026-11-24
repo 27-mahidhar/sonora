@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#3d1050"/>
+    <stop offset="70%" stop-color="#120418"/>
+    <stop offset="100%" stop-color="#120418"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="34%" cy="56%" r="72%">
+    <stop offset="0%" stop-color="#e3a6ff" stop-opacity="0.78"/>
+    <stop offset="55%" stop-color="#e3a6ff" stop-opacity="0.2"/>
+    <stop offset="100%" stop-color="#e3a6ff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="0.4" y2="1">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.2"/>
+    <stop offset="45%" stop-color="#ffffff" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="vig" cx="50%" cy="48%" r="76%">
+    <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+    <stop offset="100%" stop-color="#000000" stop-opacity="0.42"/>
+  </radialGradient>
+  <filter id="grain" x="0" y="0" width="100%" height="100%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.86" numOctaves="4" stitchTiles="stitch" result="n"/>
+    <feColorMatrix in="n" type="saturate" values="0"/>
+  </filter>
+</defs>
+<rect width="1000" height="1000" fill="url(#bg)"/>
+<rect width="1000" height="1000" fill="url(#glow)"/>
+<path d="M -100 120 C 200 140, 420 228, 620 54 S 980 230, 1100 120" fill="none" stroke="#e3a6ff" stroke-opacity="0.7740247062221169" stroke-width="4.6"/><path d="M -100 247 C 200 320, 420 288, 620 196 S 980 331, 1100 247" fill="none" stroke="#e3a6ff" stroke-opacity="0.5649768666177988" stroke-width="5.5"/><path d="M -100 373 C 200 262, 420 387, 620 306 S 980 485, 1100 373" fill="none" stroke="#e3a6ff" stroke-opacity="0.6822200830839574" stroke-width="4.1"/><path d="M -100 500 C 200 544, 420 515, 620 472 S 980 546, 1100 500" fill="none" stroke="#fbf0ff" stroke-opacity="0.95" stroke-width="12.0"/><path d="M -100 627 C 200 683, 420 631, 620 593 S 980 683, 1100 627" fill="none" stroke="#e3a6ff" stroke-opacity="0.4733678507432342" stroke-width="3.2"/><path d="M -100 753 C 200 630, 420 751, 620 679 S 980 877, 1100 753" fill="none" stroke="#e3a6ff" stroke-opacity="0.8104819687828422" stroke-width="4.3"/><path d="M -100 880 C 200 857, 420 790, 620 824 S 980 973, 1100 880" fill="none" stroke="#e3a6ff" stroke-opacity="0.685402717795223" stroke-width="6.0"/>
+<rect width="1000" height="1000" fill="url(#sheen)"/>
+<rect width="1000" height="1000" fill="url(#vig)"/>
+<rect width="1000" height="1000" filter="url(#grain)" opacity="0.16" style="mix-blend-mode:overlay"/>
+</svg>

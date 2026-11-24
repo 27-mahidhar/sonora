@@ -1,0 +1,416 @@
+[
+ {
+  "name": "Carefree",
+  "dur": 205.2,
+  "bytes": 6566713,
+  "br": 256
+ },
+ {
+  "name": "Wholesome",
+  "dur": 363.9,
+  "bytes": 14556390,
+  "br": 320
+ },
+ {
+  "name": "Sneaky Snitch",
+  "dur": 136.7,
+  "bytes": 5466943,
+  "br": 320
+ },
+ {
+  "name": "Fluffing a Duck",
+  "dur": 67.4,
+  "bytes": 2696840,
+  "br": 320
+ },
+ {
+  "name": "Wallpaper",
+  "dur": 220.1,
+  "bytes": 8804339,
+  "br": 320
+ },
+ {
+  "name": "Life of Riley",
+  "dur": 235.4,
+  "bytes": 7533831,
+  "br": 256
+ },
+ {
+  "name": "Comfortable Mystery",
+  "dur": 236.5,
+  "bytes": 7808360,
+  "br": 64
+ },
+ {
+  "name": "Local Forecast - Elevator",
+  "dur": 189.3,
+  "bytes": 7570404,
+  "br": 320
+ },
+ {
+  "name": "Daily Beetle",
+  "dur": 316.9,
+  "bytes": 10141967,
+  "br": 256
+ },
+ {
+  "name": "Investigations",
+  "dur": 93.6,
+  "bytes": 3745876,
+  "br": 320
+ },
+ {
+  "name": "Peaceful Desolation",
+  "dur": 91.2,
+  "bytes": 3648906,
+  "br": 320
+ },
+ {
+  "name": "Chill Wave",
+  "dur": 240.1,
+  "bytes": 7684325,
+  "br": 256
+ },
+ {
+  "name": "Digital Lemonade",
+  "dur": 180.1,
+  "bytes": 5764221,
+  "br": 256
+ },
+ {
+  "name": "Bit Shift",
+  "dur": 192.1,
+  "bytes": 6147900,
+  "br": 256
+ },
+ {
+  "name": "Highlight Reel",
+  "dur": 176.0,
+  "bytes": 6721927,
+  "br": 64
+ },
+ {
+  "name": "Lobby Time",
+  "dur": 193.3,
+  "bytes": 6184700,
+  "br": 256
+ },
+ {
+  "name": "Loopster",
+  "dur": 182.4,
+  "bytes": 5835292,
+  "br": 256
+ },
+ {
+  "name": "Poppers and Prosecco",
+  "dur": 193.8,
+  "bytes": 6203080,
+  "br": 256
+ },
+ {
+  "name": "Salty Ditty",
+  "dur": 128.1,
+  "bytes": 4099901,
+  "br": 256
+ },
+ {
+  "name": "Silver Flame",
+  "dur": 395.7,
+  "bytes": 12662240,
+  "br": 256
+ },
+ {
+  "name": "Thinking Music",
+  "dur": 196.0,
+  "bytes": 6270785,
+  "br": 256
+ },
+ {
+  "name": "Backbay Lounge",
+  "dur": 266.6,
+  "bytes": 8531962,
+  "br": 256
+ },
+ {
+  "name": "Bossa Antigua",
+  "dur": 283.4,
+  "bytes": 9069455,
+  "br": 256
+ },
+ {
+  "name": "Easy Jam",
+  "dur": 300.1,
+  "bytes": 12003339,
+  "br": 320
+ },
+ {
+  "name": "Funk Game Loop",
+  "dur": 56.6,
+  "bytes": 2263379,
+  "br": 320
+ },
+ {
+  "name": "Funkorama",
+  "dur": 205.0,
+  "bytes": 8199078,
+  "br": 320
+ },
+ {
+  "name": "Hidden Agenda",
+  "dur": 135.1,
+  "bytes": 5404137,
+  "br": 320
+ },
+ {
+  "name": "I Knew a Guy",
+  "dur": 167.0,
+  "bytes": 6044335,
+  "br": 64
+ },
+ {
+  "name": "Moorland",
+  "dur": 339.1,
+  "bytes": 13564988,
+  "br": 320
+ },
+ {
+  "name": "Parisian",
+  "dur": 43.8,
+  "bytes": 1753171,
+  "br": 320
+ },
+ {
+  "name": "Porch Blues",
+  "dur": 115.6,
+  "bytes": 4064170,
+  "br": 64
+ },
+ {
+  "name": "Slow Burn",
+  "dur": 231.5,
+  "bytes": 9261117,
+  "br": 320
+ },
+ {
+  "name": "Supernatural",
+  "dur": 55.4,
+  "bytes": 2215435,
+  "br": 320
+ },
+ {
+  "name": "The Complex",
+  "dur": 267.8,
+  "bytes": 10712421,
+  "br": 320
+ },
+ {
+  "name": "Water Lily",
+  "dur": 144.1,
+  "bytes": 4612305,
+  "br": 256
+ },
+ {
+  "name": "Whiskey on the Mississippi",
+  "dur": 195.4,
+  "bytes": 7817475,
+  "br": 320
+ },
+ {
+  "name": "Wish Background",
+  "dur": 1178.2,
+  "bytes": 47129112,
+  "br": 320
+ },
+ {
+  "name": "Your Call",
+  "dur": 224.1,
+  "bytes": 7171918,
+  "br": 256
+ },
+ {
+  "name": "As I Figure",
+  "dur": 220.3,
+  "bytes": 8813705,
+  "br": 320
+ },
+ {
+  "name": "Beach Bum",
+  "dur": 55.0,
+  "bytes": 2201169,
+  "br": 320
+ },
+ {
+  "name": "Bittersweet",
+  "dur": 202.1,
+  "bytes": 6468058,
+  "br": 256
+ },
+ {
+  "name": "Chee Zee Beach",
+  "dur": 203.4,
+  "bytes": 8136651,
+  "br": 320
+ },
+ {
+  "name": "Comparsa",
+  "dur": 163.0,
+  "bytes": 5216870,
+  "br": 256
+ },
+ {
+  "name": "Crossing the Chasm",
+  "dur": 196.9,
+  "bytes": 6301717,
+  "br": 256
+ },
+ {
+  "name": "Deliberate Thought",
+  "dur": 180.6,
+  "bytes": 7224606,
+  "br": 320
+ },
+ {
+  "name": "Dream Culture",
+  "dur": 214.4,
+  "bytes": 8576659,
+  "br": 320
+ },
+ {
+  "name": "Faster Does It",
+  "dur": 181.9,
+  "bytes": 7275665,
+  "br": 320
+ },
+ {
+  "name": "Heartbreaking",
+  "dur": 98.7,
+  "bytes": 3947252,
+  "br": 320
+ },
+ {
+  "name": "Hep Cats",
+  "dur": 250.8,
+  "bytes": 8025406,
+  "br": 256
+ },
+ {
+  "name": "Hustle",
+  "dur": 120.6,
+  "bytes": 4824325,
+  "br": 320
+ },
+ {
+  "name": "In Your Arms",
+  "dur": 168.8,
+  "bytes": 5402295,
+  "br": 256
+ },
+ {
+  "name": "Minima",
+  "dur": 213.9,
+  "bytes": 8557837,
+  "br": 320
+ },
+ {
+  "name": "SoundHelix-Song-1",
+  "dur": 372.7,
+  "bytes": 8945229,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-2",
+  "dur": 426.0,
+  "bytes": 10222911,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-3",
+  "dur": 344.1,
+  "bytes": 8258104,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-4",
+  "dur": 302.5,
+  "bytes": 7260626,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-5",
+  "dur": 354.0,
+  "bytes": 8495068,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-6",
+  "dur": 279.6,
+  "bytes": 6711427,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-7",
+  "dur": 420.6,
+  "bytes": 10095020,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-8",
+  "dur": 325.3,
+  "bytes": 7807352,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-9",
+  "dur": 389.4,
+  "bytes": 9344585,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-10",
+  "dur": 527.4,
+  "bytes": 12657318,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-11",
+  "dur": 551.1,
+  "bytes": 13225325,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-12",
+  "dur": 513.7,
+  "bytes": 12328191,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-13",
+  "dur": 470.1,
+  "bytes": 11281203,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-14",
+  "dur": 516.2,
+  "bytes": 12389004,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-15",
+  "dur": 438.0,
+  "bytes": 10513848,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-16",
+  "dur": 483.4,
+  "bytes": 11602841,
+  "br": 192
+ },
+ {
+  "name": "SoundHelix-Song-17",
+  "dur": 675.8,
+  "bytes": 21627018,
+  "br": 256
+ }
+]
