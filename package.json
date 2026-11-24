@@ -2,7 +2,7 @@
   "name": "sonora",
   "version": "1.0.0",
   "private": true,
-  "description": "SONORA — a premium music streaming platform",
+  "description": "SONORA \u2014 a premium music streaming platform",
   "scripts": {
     "dev": "next dev -p 3000",
     "build": "next build",
@@ -29,5 +29,8 @@
     "tailwind-merge": "^2.5.4",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=20 <23"
   }
 }
